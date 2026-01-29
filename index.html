@@ -1,11 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefa CSS</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Davi Mello</h1>
+        <nav class="links">
+            <a href="">Home</a>
+            <a href="">Contato</a>
+            <a href="">Menu</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sobre-mim">
+            <img src="/assets/fotoPerfil.jpeg" alt="Foto de perfil de Davi">
+
+            <div>
+                <h2>Sobre Mim</h2>
+                <p>Olá! meu nome é Davi, tenho 19 anos e nasci e fui criado na cidade de Niterói no Rio de Janeiro. Em relação a faculdade, estou indo para o quarto período de Sistemas de Informação na UFF. Além disso, sou entusiasta de tecnologia e completamente apaixonado por videogames, muito por isso que hoje em dia curso algo inserido ,mesmo que não diretamente, nesse escopo.</p>
+            </div>
+        </section>
+
+        <section class="listas">
+            
+            <div class="list">
+                <h2 id="hobbies">Hobbies</h2>
+                
+                <div class="hobbies-cards">
+                    <div class="card" style="background-image: url(/assets/cards/jogar.webp);">
+                        <div class="number-box">
+
+                        </div>
+                        <div class="name">
+                            <p>Jogar</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-image: url(/assets/cards/musicas.jpg);">
+                        <div class="number-box">
+
+                        </div>
+                        <div class="name">
+                            <p>Escutar Música</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-image: url(/assets/cards/filmes.webp);">
+                        <div class="number-box">
+
+                        </div>
+                        <div class="name">
+                            <p>Ver Filmes</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-image: url(/assets/cards/ler.jpg);">
+                        <div class="number-box">
+
+                        </div>
+                        <div class="name">
+                            <p>Ler</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-image: url(/assets/cards/bike.webp);">
+                        <div class="number-box">
+
+                        </div>
+                        <div class="name">
+                            <p>Andar de Bicicleta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <h2>Games</h2>
+
+                <div class="game-cards">
+                    <div class="card" style="background-image: url(/assets/cards/tlou.png);">
+                        <div class="number-box">
+                            <p>1</p>
+                        </div>
+                        <div class="name">
+                            <p>TLoU Part II</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-image: url(/assets/cards/zelda.png);">
+                        <div class="number-box">
+                            <p>2</p>
+                        </div>
+                        <div class="name">
+                            <p>Zelda</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-image: url(/assets/cards/SotC.jpg);">
+                        <div class="number-box">
+                            <p>3</p>
+                        </div>
+                        <div class="name">
+                            <p>Shadow of The Colossus</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-image: url(/assets/cards/minecraft.png);">
+                        <div class="number-box">
+                            
+                        </div>
+                        <div class="name">
+                            <p>Minecraft</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="background-image: url(/assets/cards/injustice.webp);">
+                        <div class="number-box">
+                            
+                        </div>
+                        <div class="name">
+                            <p>Injustice</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback"> 
+            <div class="feedback-box">
+                <div class="feedback-title">
+                    <label>Feedback</label>
+                </div>
+                
+                <div class="inputs-box">
+                    <input type="text" placeholder="Dê um feedback para esse desenvolvedor!">
+                    <input type="text" placeholder="Digite seu nome aqui">
+                </div>
     
+                <div class="btn-container">
+                    <button>Enviar</button>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="links-box">
+            <a href="" target="_blank"><img src="/assets/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/davi-mello-99444b2b6/" target="_blank"><img src="/assets/linkedin.png" alt=""></a>
+            <a href="" target="_blank"><img src="/assets/facebook.png" alt=""></a>
+            <a href="" target="_blank"><img src="/assets/gitlab.png" alt=""></a>
+        </div>
+        
+        <button>Entrar em contato</button>
+        
+    </footer>
 </body>
 </html>
